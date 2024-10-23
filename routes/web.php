@@ -13,3 +13,8 @@ Route::get('/index', function(){
 Route::get('/login', function(){
     return view('login');
 });
+
+
+Route::get('/about', function() {
+    return view('about');
+});
