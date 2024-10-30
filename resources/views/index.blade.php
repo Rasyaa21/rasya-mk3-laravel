@@ -18,7 +18,7 @@
             </button>
             <div class="flex items-center justify-center space-x-8 lg:flex">
                 <a class="text-white lg:text-lg" href="#">Home</a>
-                <a class="text-white lg:text-lg" href="#">About</a>
+                <a class="text-white lg:text-lg" href="{{ route('about') }}">About</a>
                 <a class="text-white lg:text-lg" href="#">Portfolio</a>
             </div>
             <button class="px-4 py-2 text-sm font-bold text-black bg-white rounded-full">Contact</button>
@@ -27,8 +27,8 @@
 
     <div class="container mx-auto flex flex-col-reverse lg:flex-row items-center justify-between h-auto lg:h-[94vh] space-y-8 lg:space-y-0 lg:space-x-8">
         <div class="flex flex-col w-full space-y-4 text-center lg:w-1/2 lg:text-left">
-            <h1 class="text-3xl font-bold text-black lg:text-4xl">Naufal Qathafa</h1>
-            <h1 class="text-3xl font-bold text-black lg:text-4xl">Rasya Hidayat.</h1>
+            <h1 class="text-3xl font-bold text-black lg:text-5xl">Naufal Qathafa</h1>
+            <h1 class="text-3xl font-bold text-black lg:text-5xl">Rasya Hidayat.</h1>
             <p class="px-4 font-semibold lg:px-0">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi excepturi accusamus laborum deserunt vitae nesciunt consectetur aut natus minima aspernatur eum ab omnis quo cum, autem, fugit atque et neque!
             </p>

@@ -10,7 +10,7 @@ document.getElementById('loginForm').addEventListener('submit', (event) => {
 
     if (userInput === username && passwordInput === password) {
         alert('Login Berhasil')
-        window.location.href = '/index'
+        window.location.href = '/'
     } else {
         alert('Login Failed')
     }
